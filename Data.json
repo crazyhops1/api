@@ -1,0 +1,649 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "description": "Devices and gadgets such as phones, computers, and TVs.",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Mobile Phones",
+          "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y0IyMmhwNm1HTHhnVk5VN0dRb3FBNEpOZTBYalh5Vk90cEc1K2wwRzFGejRMeXJHUnUva2huMjl4akFHOXNwVjA0YXFmK3VWSWZuRE9oVEFyUFR0T2g3aHFOc0RlQlduNzZ3d2xCVDdFUXZ3PT0=&traceId=1",
+          "description": "Smartphones and feature phones.",
+          "products": [
+            {
+              "id": 101,
+              "name": "Apple iPhone 14",
+              "brand": "Apple",
+              "price": 999,
+              "rating": 4.5,
+              "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/c52e482c-bff3-4278-8699-a0a156ca739524160708_182x182.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 102,
+              "name": "Samsung Galaxy S21",
+              "brand": "Samsung",
+              "price": 799,
+              "rating": 4.3,
+              "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/16111415-ce4d-4bb9-aa18-b8375ec5637d24291220_182x182.jpg",
+              "availability": "Out of Stock"
+            },
+            {
+              "id": 103,
+              "name": "Google Pixel 7",
+              "brand": "Google",
+              "price": 899,
+              "rating": 4.4,
+              "image": "https://lh3.googleusercontent.com/zTUwNrMXQA0qkGDy8XISyJ5eED2sqbRfHjEe86jvGuGT-2BnU8rSt6qfn2HEx8-3KgVHz5l7XrZ1CYUfylCyC5mJJUjPboGUIVmc=s3000-w3000-e365-rw-v0",
+              "availability": "In Stock"
+            },
+            {
+              "id": 104,
+              "name": "OnePlus 11",
+              "brand": "OnePlus",
+              "price": 749,
+              "rating": 4.2,
+              "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-11.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Laptops",
+          "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697230830200",
+          "description": "Portable computers for personal and professional use.",
+          "products": [
+            {
+              "id": 201,
+              "name": "Dell XPS 13",
+              "brand": "Dell",
+              "price": 1200,
+              "rating": 4.7,
+              "image": "https://example.com/images/dellxps13.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 202,
+              "name": "MacBook Pro 16",
+              "brand": "Apple",
+              "price": 2400,
+              "rating": 4.8,
+              "image": "https://example.com/images/macbookpro16.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 203,
+              "name": "HP Spectre x360",
+              "brand": "HP",
+              "price": 1400,
+              "rating": 4.6,
+              "image": "https://example.com/images/hp-spectre-x360.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 204,
+              "name": "Lenovo ThinkPad X1 Carbon",
+              "brand": "Lenovo",
+              "price": 1300,
+              "rating": 4.5,
+              "image": "https://example.com/images/lenovo-thinkpad-x1-carbon.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Tablets",
+          "image": "https://m.media-amazon.com/images/I/41hRHg7RYEL.SS700.jpg",
+          "description": "Portable touchscreen computers.",
+          "products": [
+            {
+              "id": 301,
+              "name": "Apple iPad Pro",
+              "brand": "Apple",
+              "price": 999,
+              "rating": 4.8,
+              "image": "https://example.com/images/ipad-pro.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 302,
+              "name": "Samsung Galaxy Tab S7",
+              "brand": "Samsung",
+              "price": 799,
+              "rating": 4.6,
+              "image": "https://example.com/images/galaxy-tab-s7.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 303,
+              "name": "Microsoft Surface Pro 8",
+              "brand": "Microsoft",
+              "price": 1099,
+              "rating": 4.7,
+              "image": "https://example.com/images/surface-pro-8.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 304,
+              "name": "Lenovo Tab P11",
+              "brand": "Lenovo",
+              "price": 399,
+              "rating": 4.4,
+              "image": "https://example.com/images/lenovo-tab-p11.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Headphones",
+          "image": "https://lh3.googleusercontent.com/spp/AMO2MR4vcscycUGEx3EUzFhEmGEwGtc-h0zgPOSBme-pjZdEkHpjKNSK6Sw4pi9clfZmVxDaGT8hgj4dMB6CRKwTAkJ8mId_-DHc87ZGgg6j6lNsAXH4MeJOhWgI743aUNwI1OP-xUBnXTsnlZ1VJE3EQeKNYVwz0jmrB48-zetc5xYH9XmXkDjpB4nT30ZUYtJ7Tz3Fxjc-FA=s512-pd-pc0x00ffffff",
+          "description": "Audio devices for personal listening.",
+          "products": [
+            {
+              "id": 401,
+              "name": "Sony WH-1000XM4",
+              "brand": "Sony",
+              "price": 349,
+              "rating": 4.9,
+              "image": "https://example.com/images/sony-wh-1000xm4.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 402,
+              "name": "Bose QuietComfort 35 II",
+              "brand": "Bose",
+              "price": 299,
+              "rating": 4.8,
+              "image": "https://example.com/images/bose-qc35-ii.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 403,
+              "name": "Apple AirPods Pro",
+              "brand": "Apple",
+              "price": 249,
+              "rating": 4.7,
+              "image": "https://example.com/images/airpods-pro.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 404,
+              "name": "Sennheiser HD 660S",
+              "brand": "Sennheiser",
+              "price": 399,
+              "rating": 4.6,
+              "image": "https://example.com/images/sennheiser-hd-660s.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Furniture",
+      "description": "Items for home furnishing including sofas, tables, and chairs.",
+      "subcategories": [
+        {
+          "id": 3,
+          "name": "Sofas",
+          "image": "https://thesleepcompany.in/cdn/shop/files/1_66ab70aa-d092-4291-a1f1-4d37ef267e8e.jpg?v=1721586756&width=1445",
+          "description": "Comfortable seating for living rooms.",
+          "products": [
+            {
+              "id": 301,
+              "name": "Leather Sectional Sofa",
+              "brand": "HomeStyle",
+              "price": 1500,
+              "rating": 4.6,
+              "image": "https://example.com/images/leather-sectional.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 302,
+              "name": "Fabric Sofa",
+              "brand": "ComfortHome",
+              "price": 800,
+              "rating": 4.4,
+              "image": "https://example.com/images/fabric-sofa.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 303,
+              "name": "Chesterfield Sofa",
+              "brand": "ClassicComfort",
+              "price": 1200,
+              "rating": 4.7,
+              "image": "https://example.com/images/chesterfield-sofa.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 304,
+              "name": "Modern Recliner Sofa",
+              "brand": "RelaxZone",
+              "price": 950,
+              "rating": 4.5,
+              "image": "https://example.com/images/modern-recliner-sofa.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Tables",
+          "image": "https://www.royaloakindia.com/media/catalog/product/l/s/ls_62.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=500&width=800&canvas=800:500&format=jpeg",
+          "description": "",
+          "products": [
+            {
+              "id": 401,
+              "name": "Dining Table",
+              "brand": "WoodWorks",
+              "price": 500,
+              "rating": 4.5,
+              "image": "https://example.com/images/dining-table.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 402,
+              "name": "Coffee Table",
+              "brand": "TableCraft",
+              "price": 150,
+              "rating": 4.2,
+              "image": "https://example.com/images/coffee-table.jpg",
+              "availability": "Out of Stock"
+            },
+            {
+              "id": 403,
+              "name": "End Table",
+              "brand": "ElegantFurnishings",
+              "price": 120,
+              "rating": 4.3,
+              "image": "https://example.com/images/end-table.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 404,
+              "name": "Console Table",
+              "brand": "StylishLiving",
+              "price": 200,
+              "rating": 4.4,
+              "image": "https://example.com/images/console-table.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Chairs",
+          "image": "https://in.steelcase.com/cdn/shop/products/Series_1_Seagull_Nickel_Otto_Ash_HD_Front_2000x.jpg?v=1700813461",
+          "description": "Seating options for various needs.",
+          "products": [
+            {
+              "id": 501,
+              "name": "Ergonomic Office Chair",
+              "brand": "ComfortWorks",
+              "price": 250,
+              "rating": 4.7,
+              "image": "https://example.com/images/ergonomic-office-chair.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 502,
+              "name": "Recliner Chair",
+              "brand": "RelaxCo",
+              "price": 350,
+              "rating": 4.6,
+              "image": "https://example.com/images/recliner-chair.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 503,
+              "name": "Dining Chair",
+              "brand": "HomeSeats",
+              "price": 120,
+              "rating": 4.5,
+              "image": "https://example.com/images/dining-chair.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 504,
+              "name": "Accent Chair",
+              "brand": "StyleSeats",
+              "price": 180,
+              "rating": 4.4,
+              "image": "https://example.com/images/accent-chair.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Home Appliances",
+      "description": "Household devices such as refrigerators, washing machines, and microwaves.",
+      "subcategories": [
+        {
+          "id": 5,
+          "name": "Refrigerators",
+          "image": "https://cdn.godrej.com/img/Product/Front8Kcopy2_P14071621.jpg",
+          "description": "Appliances for food storage and preservation.",
+          "products": [
+            {
+              "id": 501,
+              "name": "Samsung 253L Double Door Refrigerator",
+              "brand": "Samsung",
+              "price": 600,
+              "rating": 4.4,
+              "image": "https://example.com/images/samsung-refrigerator.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 502,
+              "name": "LG 687L Side-by-Side Refrigerator",
+              "brand": "LG",
+              "price": 1200,
+              "rating": 4.6,
+              "image": "https://example.com/images/lg-refrigerator.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 503,
+              "name": "Whirlpool 500L Bottom Freezer Refrigerator",
+              "brand": "Whirlpool",
+              "price": 800,
+              "rating": 4.5,
+              "image": "https://example.com/images/whirlpool-bottom-freezer.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 504,
+              "name": "Bosch 300L Top Mount Refrigerator",
+              "brand": "Bosch",
+              "price": 750,
+              "rating": 4.3,
+              "image": "https://example.com/images/bosch-top-mount.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Washing Machines",
+          "image": "https://images.samsung.com/is/image/samsung/p6pim/in/wa90bg4542bdtl/gallery/in-wa4000b-432772-wa90bg4542bdtl-533455279?$730_584_PNG$",
+          "description": "Machines for washing clothes and linens.",
+          "products": [
+            {
+              "id": 601,
+              "name": "Bosch Front Load Washing Machine",
+              "brand": "Bosch",
+              "price": 700,
+              "rating": 4.7,
+              "image": "https://example.com/images/bosch-washing-machine.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 602,
+              "name": "Whirlpool Top Load Washing Machine",
+              "brand": "Whirlpool",
+              "price": 450,
+              "rating": 4.3,
+              "image": "https://example.com/images/whirlpool-washing-machine.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 603,
+              "name": "LG Front Load Washing Machine",
+              "brand": "LG",
+              "price": 650,
+              "rating": 4.6,
+              "image": "https://example.com/images/lg-front-load.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 604,
+              "name": "Samsung Top Load Washing Machine",
+              "brand": "Samsung",
+              "price": 500,
+              "rating": 4.4,
+              "image": "https://example.com/images/samsung-top-load.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Microwaves",
+          "image": "https://www.lg.com/content/dam/channel/wcms/in/images/microwave-ovens/mc3286brum_dbkqiln_eail_in_c/MC3286BRUM-microwave-ovens-Front-view-Thumb-450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+          "description": "Appliances for heating and cooking food.",
+          "products": [
+            {
+              "id": 701,
+              "name": "Panasonic NN-SN966S",
+              "brand": "Panasonic",
+              "price": 300,
+              "rating": 4.5,
+              "image": "https://example.com/images/panasonic-microwave.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 702,
+              "name": "LG NeoChef",
+              "brand": "LG",
+              "price": 250,
+              "rating": 4.6,
+              "image": "https://example.com/images/lg-neochef.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 703,
+              "name": "Samsung MS14K6000AS",
+              "brand": "Samsung",
+              "price": 270,
+              "rating": 4.4,
+              "image": "https://example.com/images/samsung-microwave.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 704,
+              "name": "Breville BMO850BSS",
+              "brand": "Breville",
+              "price": 350,
+              "rating": 4.7,
+              "image": "https://example.com/images/breville-microwave.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Clothing Accessories",
+      "description": "Fashion accessories including watches, belts, and scarves.",
+      "subcategories": [
+        {
+          "id": 7,
+          "name": "Watches",
+          "image": "https://in.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-tambour-street-diver-chronograph-automatic-46mm-steel--QA167A_PM2_Front%20view.png?wid=1090&hei=1090",
+          "description": "Timepieces for personal use.",
+          "products": [
+            {
+              "id": 701,
+              "name": "Rolex Submariner",
+              "brand": "Rolex",
+              "price": 8000,
+              "rating": 4.9,
+              "image": "https://example.com/images/rolex-submariner.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 702,
+              "name": "Apple Watch Series 7",
+              "brand": "Apple",
+              "price": 750,
+              "rating": 4.6,
+              "image": "https://example.com/images/apple-watch-series7.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 703,
+              "name": "Tag Heuer Carrera",
+              "brand": "Tag Heuer",
+              "price": 2500,
+              "rating": 4.8,
+              "image": "https://example.com/images/tag-heuer-carrera.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 704,
+              "name": "Omega Seamaster",
+              "brand": "Omega",
+              "price": 5000,
+              "rating": 4.7,
+              "image": "https://example.com/images/omega-seamaster.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Belts",
+          "image": "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/resize-w:360/000000410394430002/wfxWL64Z2z-000000410394430002_1.jpg",
+          "description": "Accessories for holding up trousers and adding style.",
+          "products": [
+            {
+              "id": 801,
+              "name": "Leather Belt",
+              "brand": "StyleMania",
+              "price": 50,
+              "rating": 4.4,
+              "image": "https://example.com/images/leather-belt.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 802,
+              "name": "Canvas Belt",
+              "brand": "UrbanWear",
+              "price": 25,
+              "rating": 4.2,
+              "image": "https://example.com/images/canvas-belt.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 803,
+              "name": "Suede Belt",
+              "brand": "LuxuryBelt",
+              "price": 60,
+              "rating": 4.3,
+              "image": "https://example.com/images/suede-belt.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 804,
+              "name": "Braided Leather Belt",
+              "brand": "ElegantWear",
+              "price": 55,
+              "rating": 4.5,
+              "image": "https://example.com/images/braided-leather-belt.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Scarves",
+          "image": "https://taroob.in/cdn/shop/products/1_374f1da4-5884-44f9-a1fc-402b55f2e244_1800x1800.png?v=1681243830",
+          "description": "Accessories for warmth and style.",
+          "products": [
+            {
+              "id": 901,
+              "name": "Wool Scarf",
+              "brand": "WarmWear",
+              "price": 80,
+              "rating": 4.6,
+              "image": "https://example.com/images/wool-scarf.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 902,
+              "name": "Silk Scarf",
+              "brand": "LuxurySilk",
+              "price": 120,
+              "rating": 4.7,
+              "image": "https://example.com/images/silk-scarf.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 903,
+              "name": "Cashmere Scarf",
+              "brand": "EliteWarmth",
+              "price": 200,
+              "rating": 4.8,
+              "image": "https://example.com/images/cashmere-scarf.jpg",
+              "availability": "In Stock"
+            },
+            {
+              "id": 904,
+              "name": "Pashmina Scarf",
+              "brand": "PrestigeWear",
+              "price": 150,
+              "rating": 4.5,
+              "image": "https://example.com/images/pashmina-scarf.jpg",
+              "availability": "In Stock"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": "4ad8",
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "phone": "8745838586",
+      "password": "vishal86",
+      "cart": [
+        {
+          "id": 101,
+          "name": "Apple iPhone 14",
+          "brand": "Apple",
+          "price": 999,
+          "rating": 4.5,
+          "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/c52e482c-bff3-4278-8699-a0a156ca739524160708_182x182.jpg",
+          "availability": "In Stock",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "cc91",
+      "name": "rohit",
+      "email": "rahav@gmail.com",
+      "phone": "89672833",
+      "password": "rahav",
+      "cart": []
+    },
+    {
+      "id": "52f7",
+      "name": "rohit",
+      "email": "rahav@gmail.com",
+      "phone": "89672833",
+      "password": "rahav",
+      "cart": []
+    },
+    {
+      "id": "c2b2",
+      "name": "mohit",
+      "email": "babu@gmail.com",
+      "phone": "89234589",
+      "password": "mohit89",
+      "cart": []
+    }
+  ]
+}
